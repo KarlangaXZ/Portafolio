@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Portafolio KarlangaXZ</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1><img src="./img/faviconLOGO.ico" alt=""></h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="https://github.com/KarlangaXZ" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/carlosjlinares/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/karlangaxz/" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Carlos Linares</span>, FullStack Developer</h2>
+                <p class="descripcion">Un desarrollador apasionado</p>
+                <a href="#portfolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="./img/foto.jpg">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Carlos Linares</span> </h2>
+            <h3>FullStack Developer</h3><hr>
+            <p>Soy un apasionado de la Ingeniería en Software con una fuerte inclinación hacia el desarrollo web. Mi objetivo profesional es convertirme en un desarrollador web competente y contribuir con soluciones innovadoras en el ámbito tecnológico.
+                Poseo más de 5 años de experiencia en atención al cliente y ventas, donde he desarrollado habilidades clave como la comunicación efectiva, la resolución de problemas y la capacidad de trabajar bajo presión. Además, he supervisado equipos, lo que me ha permitido adquirir competencias en liderazgo y gestión de personas. <br><br>
+                
+                En cuanto a mi formación técnica, cuento con sólidos conocimientos en desarrollo web, especialmente en HTML, CSS y JavaScript. A pesar de ser un principiante en esta área, ya he completado varios proyectos que puedes encontrar en mi GitHub. Mi portafolio incluye trabajos que demuestran mi capacidad para crear aplicaciones web funcionales y estéticamente atractivas.
+                Además, he desarrollado proyectos utilizando C#.NET, lo que amplía mi conjunto de habilidades y me permite abordar una variedad de desafíos en el desarrollo de software. También he obtenido varias certificaciones en desarrollo web, las cuales avalan mi conocimiento y compromiso con el aprendizaje continuo.
+                </p>
+            <p>Estoy en constante búsqueda de nuevas oportunidades para aplicar y expandir mis habilidades en el desarrollo web. Si estás buscando a alguien apasionado, con una sólida base en ingeniería y experiencia en la supervisión de equipos, no dudes en contactarme. Estoy emocionado por la posibilidad de colaborar y contribuir al éxito de proyectos innovadores.</p><hr>
+            <a href="https://drive.google.com/file/d/12KdmylIivzGpd3fNwti25_Xe1dxt32aP/view?usp=sharing" target="_blank" id="cvLink">Descargar CV</a>
+        </div>
+    </section>
+
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <img src="./img/html&css.png">
+                <p> <span class="lista"> </span>Html & Css</p>
+                <span class="porcentaje">95%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <img src="./img/js.png">
+                <p> <span class="lista"> </span>Javascript</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <img src="./img/net.png">
+                <p> <span class="lista"> </span>.NET</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <img src="./img/DB.png">
+                <p> <span class="lista"> </span>DB</p>
+                <span class="porcentaje">85%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto1.jpg" alt="">
+                <div class="info">
+                    <a href="https://github.com/KarlangaXZ/CRUD" target="_blank"><h4>CRUD</h4></a>
+                    <p>HTML, CSS & JS</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto2.jpg" alt="">
+                <div class="info">
+                    <a href="https://github.com/KarlangaXZ/Adivinar-el-numero" target="_blank"><h4>Juego de Adivinanza</h4></a>
+                    <p>HTML, CSS & JS</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto3.jpg" alt="">
+                <div class="info">
+                    <a href="https://github.com/KarlangaXZ/UnPaint" target="_blank"><h4>Windows Paint</h4></a>
+                    <p>Win & .Net Framework</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto4.jpg" alt="">
+                <div class="info">
+                    <a href="https://github.com/KarlangaXZ/Project-twitter-clone" target="_blank"><h4>Twitter Clone</h4></a>
+                    <p>HTML, CSS & JS</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto5.jpg" alt="">
+                <div class="info">
+                    <a href="https://github.com/KarlangaXZ/Conversor-divisas-Java?tab=readme-ov-file" target="_blank"><h4>Conversor-divisas-Java</h4></a>
+                    <p>Java</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto6.jpg" alt="">
+                <div class="info">
+                    <a href="https://github.com/KarlangaXZ/newsletter?tab=readme-ov-file" target="_blank"><h4>newsletter</h4></a>
+                    <p>HTML, CSS & JS</p>
+                </div>
+            </div>
+        </div>
+        
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">contactarme ahora</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados - 2022</p>
+        <div class="redes">
+            <a href="https://github.com/KarlangaXZ" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/carlosjlinares/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/karlangaxz/" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
