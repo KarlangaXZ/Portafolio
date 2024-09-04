@@ -2,6 +2,10 @@
 
 ¡Bienvenido a mi portafolio en línea! Soy Carlos Linares, un desarrollador FullStack apasionado por la ingeniería en software y el desarrollo web. Este repositorio contiene el código fuente de mi sitio web personal, donde puedes conocer más sobre mí, mis habilidades y mis proyectos.
 
+![image](https://github.com/user-attachments/assets/8ecc1aa7-5055-4331-8f0c-3c12ff34accb)
+
+
+
 ## Contenidos
 
 ### Secciones del Portafolio
