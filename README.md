@@ -1,4 +1,4 @@
-# Portafolio KarlangaXZ
+# Portafolio KarlangaXZ.
 
 ¡Bienvenido a mi portafolio en línea! Soy Carlos Linares, un desarrollador FullStack apasionado por la ingeniería en software y el desarrollo web. Este repositorio contiene el código fuente de mi sitio web personal, donde puedes conocer más sobre mí, mis habilidades y mis proyectos.
 
